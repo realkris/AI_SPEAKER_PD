@@ -1,4 +1,4 @@
-# PaddleBoBo 
+# Project AI Speaker for CSI7163
 ## Quick Start
 ### 1. Building Environment
 Get a Anaconda installed with a environment of python==3.8, then: 
@@ -59,6 +59,7 @@ There are three models used in this project:
 The TTS model and wav to lip model is trainable. You can find detailed instruction on how to train these two model on:
 
 TTS: https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/vctk/tts3
+
 WAV2Lip: https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/vctk/voc1
 
 
