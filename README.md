@@ -62,7 +62,7 @@ Thank you for using our project!
 
 
 
-### To train the model
+### 4. To train the model
 
 **Training is only needed when necessary.**
 
