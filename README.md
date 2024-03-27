@@ -1,4 +1,21 @@
-# Project AI Speaker for CSI7163
+# Project AI Speaker 
+
+### Project Overview:
+
+In this project we introduce our approach for an advanced Artificial Intelligence (AI) Speaker that seamlessly integrates Text-to-Speech (TTS) and Wave-to-Lip (Wav2Lip) Shape Prediction models. The outcome is a framework that harmonizes the capabilities of natural language processing with Computer vision techniques. The AI Speaker's primary objective is to transform news scripts by offering enhanced realism through a fusion of lifelike speech synthesis and synchronized lip movements. By bridging the gap between auditory and visual modalities, this innovative solution aims to elevate user engagement and enhance the overall Quality of Experience (QoE) in multimedia communication. Key highlights of the AI Speaker include its ability to generate speech with emotional tones, synchronize lip movements accurately across diverse languages, and facilitate user-friendly script input for smooth integration into various applications. By prioritizing adaptability and user convenience, the integrated AI Speaker promises an intuitive experience, which causes deeper interactions between technology and human communication within multimedia environments.
+
+### Hardware and Software Requirements:
+If you have a GPU, recommended
+
+- **Hardware:**
+  - At least Core i7 10700, GPU optional
+
+- **Software:**
+  - is described in the installation of the project
+Get a Anaconda installed with a environment of python==3.8, then: 
+
+### Instructions for Setup and Execution:
+
 ## Quick Start
 ### 1. Building Environment
 Get a Anaconda installed with a environment of python==3.8, then: 
@@ -6,7 +23,7 @@ Get a Anaconda installed with a environment of python==3.8, then:
 If you have a GPU, recommended
 
 ```
-python -m pip install paddlepaddle-gpu==2.1.3.post112 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
+python -m pip install paddlepaddle-gpu==2.4.1.post112 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
 ```
 after that,
 ```
@@ -20,30 +37,28 @@ For CPU only:
 pip install -r requirements-cpu.txt
 ```
 
+### 2. Installations
 
+1. Make sure you have 'Visaul Studio Build Tools' and 'ffmpeg' installed.
 
-### 2. Demo
+### 3. Demo
 
-1. Make sure the target image is stored in './file/input/test.png'
-2. Enter runner.py and write the words that need to be generated as variable subtitles.
-3. Execute using Webpage(release soon)
-4. Execute in terminal:
+Execute:
 
 ```
-python runner.py
+python app.py
 ```
+open the website url and write the words that need to be generated as variable subtitles or simply use the deafault text and submit.
 
 That's all folks.
 
-*Note, NVIDIA GPU with 10GB or more VRAM is required for inferencing with GPU.
 
-The generation process includes generating vitual human avatar, after that we do TTS then fit the speech audio to lips.
-It is clealy that vitual human avatar can be used repeatly once generated. In this case, after first time running, you can also do quick inferences on your vitual human avatar pre-generated. 
-You run:
-```
-python general_demo.py --human file/input/test.mp4 --output output.mp4 --text 'Your text for speech here, for example, ACROSS THE GREAT WALL WE CAN REACH EVERY CORNER IN THE WORLD.'
-```
-For quick inferencing it only takes 30s on a 3080Ti GPU.
+---
+
+By following these instructions, anyone should be able to successfully set up and run the project. If you encounter any issues or have questions, feel free to contact [provide contact information].
+
+Thank you for using our project!
+
 
 
 
