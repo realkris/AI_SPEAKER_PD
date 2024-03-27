@@ -10,14 +10,14 @@ python -m pip install paddlepaddle-gpu==2.1.3.post112 -f https://www.paddlepaddl
 ```
 after that,
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 I've tested it on CUDA 11.2 with CUDNN 8.x. 
 
 
 For CPU only:
 ```
-pip install -r requirement-cpu.txt
+pip install -r requirements-cpu.txt
 ```
 
 
