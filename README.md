@@ -58,7 +58,7 @@ There are three models used in this project:
 3. wav to lip model: also in PaddleTools/TTS.py
 
 The TTS model and wav to lip model is trainable. 
-The details for training process will be unleased after the grade publication of CSI7163 in the interest of plagiarism protection.
+The details for training process will be unleased after the grade publication of this course in the interest of plagiarism protection.
 
 
 
