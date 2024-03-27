@@ -79,3 +79,12 @@ SAVEPATH:
    VIDEO_SAVE_PATH: './file/output/video/' #Path to save audio
    AUDIO_SAVE_PATH: './file/output/audio/' #Save the path to generate the virtual anchor video
 ```
+
+## Acknowledgements
+
+This project utilizes code from the following sources:
+
+- The implementation of loading weights for TTS and WAV2LiP modules is from [paddlepaddle example](https://github.com/PaddlePaddle/PaddleSpeech/tree/develop?tab=readme-ov-file)
+- The implementation of creating virtual human is from [CSDN](http://t.csdnimg.cn/HWkxj)
+- The implementation of the submit button in front end was adapted from [Claudio Scotto](https://codepen.io/claudiosc8/pen/OOgeMj).
+- The background image utilized in this project was adapted from [wallpapercave](https://wallpapercave.com/wallpaper-gif)
