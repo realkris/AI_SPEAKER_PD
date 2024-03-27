@@ -26,7 +26,8 @@ pip install -r requirements-cpu.txt
 
 1. Make sure the target image is stored in './file/input/test.png'
 2. Enter runner.py and write the words that need to be generated as variable subtitles.
-3. Execute:
+3. Execute using Webpage(release soon)
+4. Execute in terminal:
 
 ```
 python runner.py
@@ -56,11 +57,9 @@ There are three models used in this project:
 2. TTS model: in PaddleTools/TTS.py
 3. wav to lip model: also in PaddleTools/TTS.py
 
-The TTS model and wav to lip model is trainable. You can find detailed instruction on how to train these two model on:
+The TTS model and wav to lip model is trainable. 
+The details for training process will be unleased after the grade publication of CSI7163 in the interest of plagiarism protection.
 
-TTS: https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/vctk/tts3
-
-WAV2Lip: https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/vctk/voc1
 
 
 
