@@ -1,10 +1,17 @@
 # Project AI Speaker 
 
-### Project Overview:
+### Our Contributors 💫
+<a href="https://github.com/realkris/AI_SPEAKER_PD/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=realkris/AI_SPEAKER_PD" />
+</a>
+
+*Made with [contrib.rocks](https://contrib.rocks)*
+
+## Project Overview:
 
 In this project we introduce our approach for an advanced Artificial Intelligence (AI) Speaker that seamlessly integrates Text-to-Speech (TTS) and Wave-to-Lip (Wav2Lip) Shape Prediction models. The outcome is a framework that harmonizes the capabilities of natural language processing with Computer vision techniques. The AI Speaker's primary objective is to transform news scripts by offering enhanced realism through a fusion of lifelike speech synthesis and synchronized lip movements. By bridging the gap between auditory and visual modalities, this innovative solution aims to elevate user engagement and enhance the overall Quality of Experience (QoE) in multimedia communication. Key highlights of the AI Speaker include its ability to generate speech with emotional tones, synchronize lip movements accurately across diverse languages, and facilitate user-friendly script input for smooth integration into various applications. By prioritizing adaptability and user convenience, the integrated AI Speaker promises an intuitive experience, which causes deeper interactions between technology and human communication within multimedia environments.
 
-### Hardware and Software Requirements:
+## Hardware and Software Requirements:
 If you have a GPU, recommended
 
 - **Hardware:**
@@ -14,10 +21,10 @@ If you have a GPU, recommended
   - is described in the installation of the project
 Get a Anaconda installed with a environment of python==3.8, then: 
 
-### Instructions for Setup and Execution:
+## Instructions for Setup and Execution:
 
-## Quick Start
-### 1. Building Environment
+### Quick Start
+#### 1. Building Environment
 Get a Anaconda installed with a environment of python==3.8, then: 
 
 If you have a GPU, recommended
@@ -37,11 +44,11 @@ For CPU only:
 pip install -r requirements-cpu.txt
 ```
 
-### 2. Installations
+#### 2. Installations
 
 1. Make sure you have 'Visaul Studio Build Tools' and 'ffmpeg' installed.
 
-### 3. Demo
+#### 3. Demo
 
 Execute:
 
@@ -62,7 +69,7 @@ Thank you for using our project!
 
 
 
-### 4. To train the model
+#### 4. To train the model
 
 **Training is only needed when necessary.**
 
@@ -78,7 +85,7 @@ The details for training process will be unleased after the grade publication of
 
 
 
-## Description for default.yaml, no need to change by default
+### Description for default.yaml, no need to change by default
 ```
 GANDRIVING:
    FOM_INPUT_IMAGE: './file/input/test.png' #Static image with human face. If you want to change the image, please replace this file
